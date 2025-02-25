@@ -1,7 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../context/ShopContext";
 import Title from "../components/Title";
-import { backendUrl } from "./../../../admin/src/App";
 import axios from "axios";
 
 const Orders = () => {
