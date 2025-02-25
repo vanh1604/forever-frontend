@@ -1,8 +1,8 @@
-import React, { createContext, useEffect, useState } from "react";
+import  { createContext, useEffect, useState } from "react";
 import axios from "axios";
 import { toast } from "react-toastify";
 import { useNavigate } from "react-router-dom";
-import { backendUrl } from "./../../../admin/src/App";
+
 
 // Create the ShopContext
 export const ShopContext = createContext();
