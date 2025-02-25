@@ -5,7 +5,7 @@ import { assets } from "../assets/frontend_assets/assets";
 import { ShopContext } from "../context/ShopContext";
 import axios from "axios";
 import { toast } from "react-toastify";
-
+import "react-toastify/dist/ReactToastify.css";
 const PlaceOrder = () => {
   const {
     navigate,

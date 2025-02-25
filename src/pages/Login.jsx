@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { ShopContext } from "../context/ShopContext";
 import axios from "axios";
 import { toast } from "react-toastify";
-
+import "react-toastify/dist/ReactToastify.css";
 const Login = () => {
   const [currentState, setCurrentSate] = useState("Login");
   const { token, setToken, navigate, backendUrl } = useContext(ShopContext);
