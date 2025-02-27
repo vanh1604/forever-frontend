@@ -1,9 +1,8 @@
-import  { createContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 import axios from "axios";
-import  toast from "react-toastify";
-import { useNavigate } from "react-router-dom";
-
+import {toast} from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { useNavigate } from "react-router-dom";
 // Create the ShopContext
 export const ShopContext = createContext();
 
@@ -127,7 +126,7 @@ const ShopContextProvider = (props) => {
         }
       );
       console.log(res);
-      
+
       if (res.data.success) {
         setCartItems(res.data.cartData);
       }
