@@ -14,7 +14,7 @@ import SearchBar from "./components/SearchBar";
 import { ToastContainer } from "react-toastify";import "react-toastify/dist/ReactToastify.css";
 import Login from "./pages/Login";
 import Verify from "./pages/Verify";
-
+import 'react-toastify/dist/ReactToastify.css';
 const App = () => {
   return (
     <div className="px-4 sm:px-[5vw] md:px-[7vw] lg:px-[9vw]">
